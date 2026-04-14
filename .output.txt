@@ -21,8 +21,8 @@ modules by path [1m./src/*.ts[39m[22m 184 KiB
 
 [1m[33mWARNING[39m[22m in [1m./node_modules/.pnpm/ssh2@1.17.0/node_modules/ssh2/lib/protocol/crypto.js[39m[22m [1m[32m30:12-60[39m[22m
 [1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './crypto/build/Release/sshcrypto.node' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\node_modules\.pnpm\ssh2@1.17.0\node_modules\ssh2\lib\protocol'[39m[22m
- @ ./node_modules/.pnpm/ssh2@1.17.0/node_modules/ssh2/lib/client.js 34:29-60
- @ ./node_modules/.pnpm/ssh2@1.17.0/node_modules/ssh2/lib/index.js 27:10-32
+ @ ./node_modules/.pnpm/ssh2@1.17.0/node_modules/ssh2/lib/server.js 27:29-60
+ @ ./node_modules/.pnpm/ssh2@1.17.0/node_modules/ssh2/lib/index.js 33:10-32
  @ ./src/connect.ts 43:15-30
  @ ./src/manager.ts 90:80-100
  @ ./src/extension.ts 42:18-38
@@ -37,8 +37,8 @@ Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
 [1m[31mERROR[39m[22m in [1m./node_modules/.pnpm/cpu-features@0.0.10/node_modules/cpu-features/lib/index.js[39m[22m [1m[32m3:16-60[39m[22m
 [1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../build/Release/cpufeatures.node' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\node_modules\.pnpm\cpu-features@0.0.10\node_modules\cpu-features\lib'[39m[22m
  @ ./node_modules/.pnpm/ssh2@1.17.0/node_modules/ssh2/lib/protocol/constants.js 7:12-35
- @ ./node_modules/.pnpm/ssh2@1.17.0/node_modules/ssh2/lib/client.js 33:4-38
- @ ./node_modules/.pnpm/ssh2@1.17.0/node_modules/ssh2/lib/index.js 27:10-32
+ @ ./node_modules/.pnpm/ssh2@1.17.0/node_modules/ssh2/lib/server.js 26:4-38
+ @ ./node_modules/.pnpm/ssh2@1.17.0/node_modules/ssh2/lib/index.js 33:10-32
  @ ./src/connect.ts 43:15-30
  @ ./src/manager.ts 90:80-100
  @ ./src/extension.ts 42:18-38
@@ -478,22 +478,6 @@ Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
     Types of property 'data' are incompatible.
       Type 'IState' is not assignable to type 'undefined'.[39m[22m
 
-[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\redux.ts[39m[22m
-[1m[32m26:15-20[39m[22m
-[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\redux.ts(26,16)
-      TS2345: Argument of type 'Store<{ data: IState; view: IState; }, IActionReceivedConfigs | Action, unknown>' is not assignable to parameter of type 'Store<any, UnknownAction, unknown>'.
-  Type 'IActionReceivedConfigs | Action' is not assignable to type 'UnknownAction'.
-    Type 'IActionReceivedConfigs' is not assignable to type 'UnknownAction'.
-      Index signature for type 'string' is missing in type 'IActionReceivedConfigs'.[39m[22m
-
-[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\redux.ts[39m[22m
-[1m[32m27:15-20[39m[22m
-[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\redux.ts(27,16)
-      TS2345: Argument of type 'Store<{ data: IState; view: IState; }, IActionReceivedConfigs | Action, unknown>' is not assignable to parameter of type 'Store<any, UnknownAction, unknown>'.
-  Type 'IActionReceivedConfigs | Action' is not assignable to type 'UnknownAction'.
-    Type 'IActionReceivedConfigs' is not assignable to type 'UnknownAction'.
-      Index signature for type 'string' is missing in type 'IActionReceivedConfigs'.[39m[22m
-
 [1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\vscode.ts[39m[22m
 [1m[32m2:54-79[39m[22m
 [1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\vscode.ts(2,55)
@@ -555,10 +539,19 @@ Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
       TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
 
 [1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts[39m[22m
-[1m[32m15:30-53[39m[22m
-[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts(15,31)
-      TS2345: Argument of type 'IActionOpenNewConfig' is not assignable to parameter of type 'UnknownAction'.
-  Index signature for type 'string' is missing in type 'IActionOpenNewConfig'.[39m[22m
+[1m[32m11:83-94[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts(11,84)
+      TS2554: Expected 0-1 arguments, but got 2.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts[39m[22m
+[1m[32m12:57-74[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts(12,58)
+      TS2554: Expected 2 arguments, but got 1.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts[39m[22m
+[1m[32m13:86-97[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts(13,87)
+      TS2554: Expected 1 arguments, but got 2.[39m[22m
 
 [1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\state.ts[39m[22m
 [1m[32m1:54-79[39m[22m
@@ -568,17 +561,17 @@ Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
 [1m[33m81 errors have detailed information that is not shown.
 Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.[39m[22m
 
-webpack 5.106.1 compiled with [1m[31m81 errors[39m[22m and [1m[33m2 warnings[39m[22m in 12165 ms
+webpack 5.106.1 compiled with [1m[31m81 errors[39m[22m and [1m[33m2 warnings[39m[22m in 12776 ms
 
 asset [1m[32mindex.js[39m[22m 290 KiB [1m[33m[compared for emit][39m[22m (name: main)
 runtime modules 1.07 KiB 6 modules
-modules by path [1m./webview/src/[39m[22m 66.2 KiB
-  modules with errors 32.5 KiB [1m[31m[true errors][39m[22m 17 modules
+modules by path [1m./webview/src/[39m[22m 65.9 KiB
+  modules with errors 31 KiB [1m[31m[true errors][39m[22m 16 modules
   modules by path [1m./webview/src/*.css[39m[22m 3.36 KiB 2 modules
   modules by path [1m./webview/src/ConfigEditor/*.css[39m[22m 2.43 KiB 2 modules
   modules by path [1m./webview/src/ConfigList/*.css[39m[22m 2.7 KiB 2 modules
   modules by path [1m./webview/src/FieldTypes/*.css[39m[22m 6.93 KiB 2 modules
-  + 14 modules
+  + 15 modules
 modules by path [1m./node_modules/.pnpm/[39m[22m 111 KiB
   modules by path [1m./node_modules/.pnpm/style-loader@4.0.0_webpack@5.106.1/node_modules/style-loade...(truncated)[39m[22m 5.84 KiB 6 modules
   modules by path [1m./node_modules/.pnpm/react@19.2.5/node_modules/react/[39m[22m 46.3 KiB 2 modules
@@ -837,24 +830,6 @@ modules by path [1m./node_modules/.pnpm/[39m[22m 111 KiB
 [1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\index.tsx(8,10)
       TS2339: Property 'render' does not exist on type 'typeof import("D:\\Users\\root\\VSCode Projects\\Node.js\\TypeScript\\vscode-sshfs\\node_modules\\.pnpm\\@types+react-dom@19.2.3_@types+react@19.2.14\\node_modules\\@types\\react-dom\\index")'.[39m[22m
 
-[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\redux.ts[39m[22m
-[1m./webview/src/redux.ts[39m[22m [1m[32m26:15-20[39m[22m
-[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\redux.ts(26,16)
-      TS2345: Argument of type 'Store<{ data: IState; view: IState; }, IActionReceivedConfigs | Action, unknown>' is not assignable to parameter of type 'Store<any, UnknownAction, unknown>'.
-  Type 'IActionReceivedConfigs | Action' is not assignable to type 'UnknownAction'.
-    Type 'IActionReceivedConfigs' is not assignable to type 'UnknownAction'.
-      Index signature for type 'string' is missing in type 'IActionReceivedConfigs'.[39m[22m
- @ ./webview/src/index.tsx 5:0-32 8:40-45
-
-[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\redux.ts[39m[22m
-[1m./webview/src/redux.ts[39m[22m [1m[32m27:15-20[39m[22m
-[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\redux.ts(27,16)
-      TS2345: Argument of type 'Store<{ data: IState; view: IState; }, IActionReceivedConfigs | Action, unknown>' is not assignable to parameter of type 'Store<any, UnknownAction, unknown>'.
-  Type 'IActionReceivedConfigs | Action' is not assignable to type 'UnknownAction'.
-    Type 'IActionReceivedConfigs' is not assignable to type 'UnknownAction'.
-      Index signature for type 'string' is missing in type 'IActionReceivedConfigs'.[39m[22m
- @ ./webview/src/index.tsx 5:0-32 8:40-45
-
 [1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\vscode.ts[39m[22m
 [1m./webview/src/vscode.ts[39m[22m [1m[32m2:54-79[39m[22m
 [1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\vscode.ts(2,55)
@@ -950,15 +925,28 @@ modules by path [1m./node_modules/.pnpm/[39m[22m 111 KiB
 [1m./webview/src/view/actions.ts[39m[22m [1m[32m1:54-79[39m[22m
 [1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\actions.ts(1,55)
       TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
- @ ./webview/src/Startscreen.tsx 7:0-64 33:24-37 34:41-56
- @ ./webview/src/router.tsx 6:0-40 17:24-35
+ @ ./webview/src/NewConfig.tsx 8:0-107 27:27-42 28:33-53 29:30-46 33:21-37
+ @ ./webview/src/router.tsx 4:0-36 14:24-33
  @ ./webview/src/index.tsx 6:0-30 8:104-110
 
 [1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts[39m[22m
-[1m./webview/src/view/index.ts[39m[22m [1m[32m15:30-53[39m[22m
-[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts(15,31)
-      TS2345: Argument of type 'IActionOpenNewConfig' is not assignable to parameter of type 'UnknownAction'.
-  Index signature for type 'string' is missing in type 'IActionOpenNewConfig'.[39m[22m
+[1m./webview/src/view/index.ts[39m[22m [1m[32m11:83-94[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts(11,84)
+      TS2554: Expected 0-1 arguments, but got 2.[39m[22m
+ @ ./webview/src/redux.ts 4:0-31 8:10-22 12:10-28 16:0-14
+ @ ./webview/src/index.tsx 5:0-32 8:40-45
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts[39m[22m
+[1m./webview/src/view/index.ts[39m[22m [1m[32m12:57-74[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts(12,58)
+      TS2554: Expected 2 arguments, but got 1.[39m[22m
+ @ ./webview/src/redux.ts 4:0-31 8:10-22 12:10-28 16:0-14
+ @ ./webview/src/index.tsx 5:0-32 8:40-45
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts[39m[22m
+[1m./webview/src/view/index.ts[39m[22m [1m[32m13:86-97[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts(13,87)
+      TS2554: Expected 1 arguments, but got 2.[39m[22m
  @ ./webview/src/redux.ts 4:0-31 8:10-22 12:10-28 16:0-14
  @ ./webview/src/index.tsx 5:0-32 8:40-45
 
@@ -973,5 +961,5 @@ modules by path [1m./node_modules/.pnpm/[39m[22m 111 KiB
 [1m[33m58 errors have detailed information that is not shown.
 Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.[39m[22m
 
-webpack 5.106.1 compiled with [1m[31m58 errors[39m[22m in 10601 ms
+webpack 5.106.1 compiled with [1m[31m58 errors[39m[22m in 11225 ms
  ELIFECYCLE  Command failed with exit code 1.
