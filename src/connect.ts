@@ -261,12 +261,9 @@ export async function createSSH(config: FileSystemConfig, sock?: NodeJS.Readable
         }),
       )).then(finish).catch(e => logging.error(e));
     });
-    client.on('error', (error: Error & { description?: string }) => {
-      if (error.description) {
-        error.message = `${error.description}\n${error}`;
-      }
-      logging.error(error);
-      reject(error);
+    client.on('error', (err) => {
+      client.end();
+      console.error('SSHFS Error:', err);
     });
     try {
       const finalConfig: FileSystemConfig = { ...config, sock, ...DEFAULT_CONFIG };
