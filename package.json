@@ -397,10 +397,11 @@
         "watch": "webpack --mode development --watch",
         "vscode:prepublish": "pnpm run build"
     },
-        "devDependencies": {
+    "devDependencies": {
         "@types/node": "^20.12.1",
         "@types/request": "^2.48.1",
         "@types/semver": "^7.3.9",
+        "@types/ssh2": "^1.15.5",
         "@types/vscode": "^1.90.0",
         "@types/webpack": "^4.4.25",
         "@types/winreg": "^1.2.30",
@@ -419,7 +420,7 @@
         "jsonc-parser": "^3.2.0",
         "semver": "^7.3.5",
         "socks": "^2.2.0",
-        "ssh2": "^1.16.0",
+        "ssh2": "^1.17.0",
         "winreg": "^1.2.4"
     },
     "workspaces": [

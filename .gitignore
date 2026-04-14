@@ -1,7 +1,15 @@
 
 # Build output
+node_modules/
 dist
 util
+
+# VSCode
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
 
 # Build artifacts 
 *.vsix
