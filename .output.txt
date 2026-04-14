@@ -568,7 +568,7 @@ Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
 [1m[33m81 errors have detailed information that is not shown.
 Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.[39m[22m
 
-webpack 5.106.1 compiled with [1m[31m81 errors[39m[22m and [1m[33m2 warnings[39m[22m in 12578 ms
+webpack 5.106.1 compiled with [1m[31m81 errors[39m[22m and [1m[33m2 warnings[39m[22m in 12165 ms
 
 asset [1m[32mindex.js[39m[22m 290 KiB [1m[33m[compared for emit][39m[22m (name: main)
 runtime modules 1.07 KiB 6 modules
@@ -950,8 +950,8 @@ modules by path [1m./node_modules/.pnpm/[39m[22m 111 KiB
 [1m./webview/src/view/actions.ts[39m[22m [1m[32m1:54-79[39m[22m
 [1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\actions.ts(1,55)
       TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
- @ ./webview/src/NewConfig.tsx 8:0-107 27:27-42 28:33-53 29:30-46 33:21-37
- @ ./webview/src/router.tsx 4:0-36 14:24-33
+ @ ./webview/src/Startscreen.tsx 7:0-64 33:24-37 34:41-56
+ @ ./webview/src/router.tsx 6:0-40 17:24-35
  @ ./webview/src/index.tsx 6:0-30 8:104-110
 
 [1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts[39m[22m
@@ -973,5 +973,5 @@ modules by path [1m./node_modules/.pnpm/[39m[22m 111 KiB
 [1m[33m58 errors have detailed information that is not shown.
 Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.[39m[22m
 
-webpack 5.106.1 compiled with [1m[31m58 errors[39m[22m in 10925 ms
+webpack 5.106.1 compiled with [1m[31m58 errors[39m[22m in 10601 ms
  ELIFECYCLE  Command failed with exit code 1.
