@@ -568,11 +568,6 @@ For more info visit https://webpack.js.org/guides/code-splitting/[39m[22m
 [1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\config.tsx(1,56)
       TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
 
-[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\group.tsx[39m[22m
-[1m[32m23:58-66[39m[22m
-[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\group.tsx(23,59)
-      TS2339: Property 'children' does not exist on type 'Readonly<{}>'.[39m[22m
-
 [1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\data\actions.ts[39m[22m
 [1m[32m1:54-79[39m[22m
 [1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\data\actions.ts(1,55)
@@ -617,8 +612,8 @@ For more info visit https://webpack.js.org/guides/code-splitting/[39m[22m
 [1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\state.ts(1,55)
       TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
 
-[1m[33m84 errors have detailed information that is not shown.
+[1m[33m83 errors have detailed information that is not shown.
 Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.[39m[22m
 
-webpack 5.106.1 compiled with [1m[31m84 errors[39m[22m and [1m[33m3 warnings[39m[22m in 8201 ms
+webpack 5.106.1 compiled with [1m[31m83 errors[39m[22m and [1m[33m3 warnings[39m[22m in 8136 ms
  ELIFECYCLE  Command failed with exit code 1.

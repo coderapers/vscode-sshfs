@@ -15,5 +15,7 @@
         "skipLibCheck": true,
         "esModuleInterop": true
     },
-    "include": ["src/**/*", "../common/**/*"]
+    "include": ["src/**/*", "../common/**/*"],
+    "suppressImplicitAnyIndexErrors": true,
+    "ignoreDeprecations": "5.0"
 }

@@ -177,6 +177,7 @@ module.exports = (env, options) => {
         groupModulesByPath: true,
         modulesSpace: 50,
     },
+    include: ["src/**/*", "../common/**/*"]
   };
   return config;
 };

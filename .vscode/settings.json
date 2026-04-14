@@ -11,5 +11,6 @@
     "no-duplicate-header": {
       "allow_different_nesting": true
     }
-  }
+  },
+  "search.useIgnoreFiles": false
 }
