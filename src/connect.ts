@@ -13,7 +13,9 @@ import { toPromise, validatePort } from './utils';
 
 const DEFAULT_CONFIG: ConnectConfig = {
   tryKeyboard: true,
-  keepaliveInterval: 30e3,
+  keepaliveInterval: 10000, // Пинговать сервер каждые 10 секунд
+  keepaliveCountMax: 3,     // Разорвать соединение только после 3 неудачных попыток
+  readyTimeout: 20000       // Увеличить время ожидания готовности
 };
 
 function replaceVariables(string?: string) {
