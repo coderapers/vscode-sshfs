@@ -70,7 +70,10 @@ const config = {
         'source-map-support': 'commonjs source-map-support',
     },
     resolve: {
-        extensions: ['.ts', '.js']
+        extensions: ['.ts', '.tsx', '.js'],
+        alias: {
+            common: resolve(__dirname, 'common')
+        }
     },
     module: {
         rules: [{
