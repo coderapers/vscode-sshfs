@@ -1,0 +1,1320 @@
+
+> vscode-sshfs@1.26.1 compile D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs
+> webpack --mode development
+
+Compilation starting
+Compilation finished
+[CopyPuttyExecutable] Wrote 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\node_modules\.pnpm\ssh2@1.17.0\node_modules\ssh2\util\pagent.exe' to 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\util\pagent.exe'
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 1.57 MiB (1.65 MiB) = [1m[32mextension.js[39m[22m 1 auxiliary asset
+hidden modules 882 bytes 21 modules
+runtime modules 670 bytes 3 modules
+modules by path [./node_modules/.pnpm/] 1.18 MiB
+  javascript modules 1.1 MiB
+    modules by path [./node_modules/.pnpm/semver@7.7.4/node_modules/semver/] 63.4 KiB 45 modules
+    modules by path [./node_modules/.pnpm/ssh2@1.17.0/node_modules/ssh2/lib/] 592 KiB 20 modules
+    modules by path [./node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/] 112 KiB 13 modules
+    modules by path [./node_modules/.pnpm/ip-address@10.1.0/node_modules/ip-address/dist/] 56 KiB 9 modules
+    modules by path [./node_modules/.pnpm/jsonc-parser@3.3.1/node_modules/jsonc-parser/lib/esm/] 73.3 KiB
+      [./node_modules/.pnpm/jsonc-parser@3.3.1/node_modules/jsonc-parser/lib/esm/main.js] 9.14 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      + 5 modules
+    modules by path [./node_modules/.pnpm/socks@2.8.7/node_modules/socks/build/] 52 KiB
+      modules by path [./node_modules/.pnpm/socks@2.8.7/node_modules/socks/build/common/*.js] 16.3 KiB 4 modules
+      + 2 modules
+    modules by path [./node_modules/.pnpm/asn1@0.2.6/node_modules/asn1/lib/] 14.6 KiB
+      [./node_modules/.pnpm/asn1@0.2.6/node_modules/asn1/lib/index.js] 320 bytes {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      + 5 modules
+    modules by path [./node_modules/.pnpm/smart-buffer@4.2.0/node_modules/smart-buffer/build/*.js] 47.6 KiB
+      [./node_modules/.pnpm/smart-buffer@4.2.0/node_modules/smart-buffer/build/smartbuffer.js] 43.5 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [./node_modules/.pnpm/smart-buffer@4.2.0/node_modules/smart-buffer/build/utils.js] 4.17 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 5 modules
+  json modules 87.5 KiB
+    [./node_modules/.pnpm/ssh2@1.17.0/node_modules/ssh2/package.json] 883 bytes {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [./node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/encodings/tables/shiftjis.json] 8.78 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [./node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/encodings/tables/eucjp.json] 15.1 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [./node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/encodings/tables/cp936.json] 20.1 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [./node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/encodings/tables/gbk-added.json] 926 bytes {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [./node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json] 2.17 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [./node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/encodings/tables/cp949.json] 16.7 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [./node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/encodings/tables/cp950.json] 15.2 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [./node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/encodings/tables/big5-added.json] 7.85 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+modules by path [./src/*.ts] 184 KiB
+  modules with errors 166 KiB [1m[31m[true errors][39m[22m
+    [./src/extension.ts] 8.24 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[1 error][39m[22m
+    [./src/config.ts] 24.9 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[1 error][39m[22m
+    [./src/logging.ts] 10.5 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[2 errors][39m[22m
+    [./src/fileSystemRouter.ts] 4.54 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[1 error][39m[22m
+    [./src/manager.ts] 17.2 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[6 errors][39m[22m
+    [./src/treeViewManager.ts] 5.45 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[2 errors][39m[22m
+    [./src/ui-utils.ts] 8.83 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[3 errors][39m[22m
+    [./src/utils.ts] 4.94 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[2 errors][39m[22m
+    [./src/connection.ts] 14.6 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[3 errors][39m[22m
+    [./src/connect.ts] 20.6 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[2 errors][39m[22m
+    [./src/webview.ts] 8.14 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[5 errors][39m[22m
+    [./src/pseudoTerminal.ts] 16 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[2 errors][39m[22m
+    [./src/sshFileSystem.ts] 13.2 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[6 errors][39m[22m
+    [./src/putty.ts] 4.1 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[1 error][39m[22m
+    [./src/proxy.ts] 4.37 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[3 errors][39m[22m
+  [./src/flags.ts] 10.1 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [./src/shellConfig.ts] 7.82 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+
+[1m[33mWARNING[39m[22m in [1masset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  extension.js (1.57 MiB)[39m[22m
+
+[1m[33mWARNING[39m[22m in [1mentrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  main (1.57 MiB)
+      extension.js
+[39m[22m
+
+[1m[33mWARNING[39m[22m in [1mwebpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/config.ts[39m[22m [1m[32m46:27-61[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'common/fileSystemConfig' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src'[39m[22m
+ @ ./src/extension.ts 39:17-36
+
+[1m[31mERROR[39m[22m in [1m./src/logging.ts[39m[22m [1m[32m39:27-61[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'common/fileSystemConfig' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src'[39m[22m
+ @ ./src/extension.ts 41:18-38
+
+[1m[31mERROR[39m[22m in [1m./src/treeViewManager.ts[39m[22m [1m[32m37:27-61[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'common/fileSystemConfig' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src'[39m[22m
+ @ ./src/extension.ts 43:26-54
+
+[1m[31mERROR[39m[22m in [1m./src/ui-utils.ts[39m[22m [1m[32m42:27-61[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'common/fileSystemConfig' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src'[39m[22m
+ @ ./src/extension.ts 44:19-40
+
+[1m[31mERROR[39m[22m in [1m./src/webview.ts[39m[22m [1m[32m38:27-61[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'common/fileSystemConfig' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src'[39m[22m
+ @ ./src/manager.ts 344:83-103
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\config.ts[39m[22m
+[1m./src/config.ts[39m[22m [1m[32m2:111-136[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\config.ts(2,112)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./src/extension.ts 39:17-36
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\connect.ts[39m[22m
+[1m./src/connect.ts[39m[22m [1m[32m1:38-63[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\connect.ts(1,39)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./src/manager.ts 90:80-100
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\connect.ts[39m[22m
+[1m./src/connect.ts[39m[22m [1m[32m258:14-20[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\connect.ts(258,15)
+      TS2345: Argument of type '(answers: string[]) => void' is not assignable to parameter of type '(value: (string | undefined)[]) => void | PromiseLike<void>'.
+  Types of parameters 'answers' and 'value' are incompatible.
+    Type '(string | undefined)[]' is not assignable to type 'string[]'.
+      Type 'string | undefined' is not assignable to type 'string'.
+        Type 'undefined' is not assignable to type 'string'.[39m[22m
+ @ ./src/manager.ts 90:80-100
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\connection.ts[39m[22m
+[1m./src/connection.ts[39m[22m [1m[32m1:59-84[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\connection.ts(1,60)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./src/manager.ts 40:21-44
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\connection.ts[39m[22m
+[1m./src/connection.ts[39m[22m [1m[32m99:54-55[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\connection.ts(99,55)
+      TS2769: No overload matches this call.
+  Overload 1 of 3, '([1m[31merror[39m[22m[1m: [1m[31mError[39m[22m[1m, options?: Partial<LoggingOptions> | undefined): void', gave the following [1m[31merror[39m[22m[1m.
+    Argument of type 'unknown' is not assignable to parameter of type '[1m[31mError[39m[22m[1m'.
+  Overload 2 of 3, '(message: string, options?: Partial<LoggingOptions> | undefined): void', gave the following [1m[31merror[39m[22m[1m.
+    Argument of type 'unknown' is not assignable to parameter of type 'string'.
+  Overload 3 of 3, '(template: TemplateStringsArray, ...args: any[]): void', gave the following [1m[31merror[39m[22m[1m.
+    Argument of type 'unknown' is not assignable to parameter of type 'TemplateStringsArray'.[39m[22m
+ @ ./src/manager.ts 40:21-44
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\connection.ts[39m[22m
+[1m./src/connection.ts[39m[22m [1m[32m108:97-98[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\connection.ts(108,98)
+      TS18046: 'e' is of type 'unknown'.[39m[22m
+ @ ./src/manager.ts 40:21-44
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\extension.ts[39m[22m
+[1m./src/extension.ts[39m[22m [1m[32m2:38-63[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\extension.ts(2,39)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\fileSystemRouter.ts[39m[22m
+[1m./src/fileSystemRouter.ts[39m[22m [1m[32m14:12-22[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\fileSystemRouter.ts(14,13)
+      TS2564: Property 'debugFlags' has no initializer and is not definitely assigned in the constructor.[39m[22m
+ @ ./src/extension.ts 40:27-56
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\logging.ts[39m[22m
+[1m./src/logging.ts[39m[22m [1m[32m1:53-78[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\logging.ts(1,54)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./src/extension.ts 41:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\logging.ts[39m[22m
+[1m./src/logging.ts[39m[22m [1m[32m149:43-44[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\logging.ts(149,44)
+      TS18046: 'e' is of type 'unknown'.[39m[22m
+ @ ./src/extension.ts 41:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\manager.ts[39m[22m
+[1m./src/manager.ts[39m[22m [1m[32m2:38-63[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\manager.ts(2,39)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\manager.ts[39m[22m
+[1m./src/manager.ts[39m[22m [1m[32m3:32-56[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\manager.ts(3,33)
+      TS2307: Cannot find module 'common/webviewMessages' or its corresponding type declarations.[39m[22m
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\manager.ts[39m[22m
+[1m./src/manager.ts[39m[22m [1m[32m89:22-23[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\manager.ts(89,23)
+      TS2769: No overload matches this call.
+  Overload 1 of 3, '([1m[31merror[39m[22m[1m: [1m[31mError[39m[22m[1m, options?: Partial<LoggingOptions> | undefined): void', gave the following [1m[31merror[39m[22m[1m.
+    Argument of type 'unknown' is not assignable to parameter of type '[1m[31mError[39m[22m[1m'.
+  Overload 2 of 3, '(message: string, options?: Partial<LoggingOptions> | undefined): void', gave the following [1m[31merror[39m[22m[1m.
+    Argument of type 'unknown' is not assignable to parameter of type 'string'.
+  Overload 3 of 3, '(template: TemplateStringsArray, ...args: any[]): void', gave the following [1m[31merror[39m[22m[1m.
+    Argument of type 'unknown' is not assignable to parameter of type 'TemplateStringsArray'.[39m[22m
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\manager.ts[39m[22m
+[1m./src/manager.ts[39m[22m [1m[32m153:33-75[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\manager.ts(153,34)
+      TS2345: Argument of type '(resolved: SSHShellTaskOptions) => Promise<SSHPseudoTerminal | TextTerminal>' is not assignable to parameter of type '(resolvedDefinition: TaskDefinition) => Thenable<Pseudoterminal>'.
+  Types of parameters 'resolved' and 'resolvedDefinition' are incompatible.
+    Type 'TaskDefinition' is missing the following properties from type 'SSHShellTaskOptions': host, command[39m[22m
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\manager.ts[39m[22m
+[1m./src/manager.ts[39m[22m [1m[32m180:46-47[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\manager.ts(180,47)
+      TS18046: 'e' is of type 'unknown'.[39m[22m
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\manager.ts[39m[22m
+[1m./src/manager.ts[39m[22m [1m[32m267:57-58[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\manager.ts(267,58)
+      TS18046: 'e' is of type 'unknown'.[39m[22m
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\proxy.ts[39m[22m
+[1m./src/proxy.ts[39m[22m [1m[32m2:38-63[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\proxy.ts(2,39)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./src/connect.ts 264:74-92 266:74-92
+ @ ./src/manager.ts 90:80-100
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\proxy.ts[39m[22m
+[1m./src/proxy.ts[39m[22m [1m[32m48:64-65[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\proxy.ts(48,65)
+      TS18046: 'e' is of type 'unknown'.[39m[22m
+ @ ./src/connect.ts 264:74-92 266:74-92
+ @ ./src/manager.ts 90:80-100
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\proxy.ts[39m[22m
+[1m./src/proxy.ts[39m[22m [1m[32m72:67-68[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\proxy.ts(72,68)
+      TS18046: 'e' is of type 'unknown'.[39m[22m
+ @ ./src/connect.ts 264:74-92 266:74-92
+ @ ./src/manager.ts 90:80-100
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\pseudoTerminal.ts[39m[22m
+[1m./src/pseudoTerminal.ts[39m[22m [1m[32m1:59-84[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\pseudoTerminal.ts(1,60)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./src/manager.ts 42:25-52 152:83-110 189:107-134
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\pseudoTerminal.ts[39m[22m
+[1m./src/pseudoTerminal.ts[39m[22m [1m[32m124:54-58[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\pseudoTerminal.ts(124,55)
+      TS2683: 'this' implicitly has type 'any' because it does not have a type annotation.[39m[22m
+ @ ./src/manager.ts 42:25-52 152:83-110 189:107-134
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\putty.ts[39m[22m
+[1m./src/putty.ts[39m[22m [1m[32m6:19-25[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\putty.ts(6,20)
+      TS2351: This expression is not constructable.
+  Type '{ default: WinregStatic; HKLM: string; HKCU: string; HKCR: string; HKU: string; HKCC: string; HIVES: string[]; REG_SZ: string; REG_MULTI_SZ: string; REG_EXPAND_SZ: string; REG_DWORD: string; ... 4 more ...; DEFAULT_VALUE: string; }' has no construct signatures.[39m[22m
+ @ ./src/connect.ts 115:84-102
+ @ ./src/manager.ts 90:80-100
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\sshFileSystem.ts[39m[22m
+[1m./src/sshFileSystem.ts[39m[22m [1m[32m2:38-63[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\sshFileSystem.ts(2,39)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./src/manager.ts 91:86-112
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\sshFileSystem.ts[39m[22m
+[1m./src/sshFileSystem.ts[39m[22m [1m[32m46:12-22[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\sshFileSystem.ts(46,13)
+      TS2564: Property 'debugFlags' has no initializer and is not definitely assigned in the constructor.[39m[22m
+ @ ./src/manager.ts 91:86-112
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\sshFileSystem.ts[39m[22m
+[1m./src/sshFileSystem.ts[39m[22m [1m[32m47:12-28[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\sshFileSystem.ts(47,13)
+      TS2564: Property 'notifyErrorFlags' has no initializer and is not definitely assigned in the constructor.[39m[22m
+ @ ./src/manager.ts 91:86-112
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\sshFileSystem.ts[39m[22m
+[1m./src/sshFileSystem.ts[39m[22m [1m[32m124:24-44[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\sshFileSystem.ts(124,25)
+      TS2769: No overload matches this call.
+  The last overload gave the following [1m[31merror[39m[22m[1m.
+    Argument of type '(...items: never[]) => number' is not assignable to parameter of type '(...args: any[]) => void'.
+      Types of parameters 'items' and 'args' are incompatible.
+        Type 'any' is not assignable to type 'never'.[39m[22m
+ @ ./src/manager.ts 91:86-112
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\sshFileSystem.ts[39m[22m
+[1m./src/sshFileSystem.ts[39m[22m [1m[32m140:12-13[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\sshFileSystem.ts(140,13)
+      TS18046: 'e' is of type 'unknown'.[39m[22m
+ @ ./src/manager.ts 91:86-112
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\sshFileSystem.ts[39m[22m
+[1m./src/sshFileSystem.ts[39m[22m [1m[32m146:45-46[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\sshFileSystem.ts(146,46)
+      TS2345: Argument of type 'unknown' is not assignable to parameter of type '[1m[31mError[39m[22m[1m & { code?: any; }'.
+  Type 'unknown' is not assignable to type '[1m[31mError[39m[22m[1m'.[39m[22m
+ @ ./src/manager.ts 91:86-112
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\treeViewManager.ts[39m[22m
+[1m./src/treeViewManager.ts[39m[22m [1m[32m2:44-69[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\treeViewManager.ts(2,45)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./src/extension.ts 43:26-54
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\treeViewManager.ts[39m[22m
+[1m./src/treeViewManager.ts[39m[22m [1m[32m58:68-72[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\treeViewManager.ts(58,69)
+      TS2554: Expected 1 arguments, but got 0.[39m[22m
+ @ ./src/extension.ts 43:26-54
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\ui-utils.ts[39m[22m
+[1m./src/ui-utils.ts[39m[22m [1m[32m2:56-81[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\ui-utils.ts(2,57)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./src/extension.ts 44:19-40
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\ui-utils.ts[39m[22m
+[1m./src/ui-utils.ts[39m[22m [1m[32m147:56-82[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\ui-utils.ts(147,57)
+      TS2769: No overload matches this call.
+  Overload 1 of 3, '(callbackfn: (previousValue: Connection, currentValue: Connection, currentIndex: number, array: Connection[]) => Connection, initialValue: Connection): Connection', gave the following [1m[31merror[39m[22m[1m.
+    Type 'SSHPseudoTerminal[]' is missing the following properties from type 'Connection': config, actualConfig, client, home, and 7 more.
+  Overload 2 of 3, '(callbackfn: (previousValue: never[], currentValue: Connection, currentIndex: number, array: Connection[]) => never[], initialValue: never[]): never[]', gave the following [1m[31merror[39m[22m[1m.
+    Type 'SSHPseudoTerminal[]' is not assignable to type 'never[]'.
+      Type 'SSHPseudoTerminal' is not assignable to type 'never'.[39m[22m
+ @ ./src/extension.ts 44:19-40
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\ui-utils.ts[39m[22m
+[1m./src/ui-utils.ts[39m[22m [1m[32m148:36-39[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\ui-utils.ts(148,37)
+      TS2339: Property 'map' does not exist on type 'Connection'.[39m[22m
+ @ ./src/extension.ts 44:19-40
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\utils.ts[39m[22m
+[1m./src/utils.ts[39m[22m [1m[32m1:41-66[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\utils.ts(1,42)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./src/config.ts 52:16-34
+ @ ./src/extension.ts 39:17-36
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\utils.ts[39m[22m
+[1m./src/utils.ts[39m[22m [1m[32m27:31-38[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\utils.ts(27,32)
+      TS2345: Argument of type '(value: T | PromiseLike<T>) => void' is not assignable to parameter of type '(value?: T | PromiseLike<T> | undefined) => void'.
+  Types of parameters 'value' and 'value' are incompatible.
+    Type 'T | PromiseLike<T> | undefined' is not assignable to type 'T | PromiseLike<T>'.
+      Type 'undefined' is not assignable to type 'T | PromiseLike<T>'.[39m[22m
+ @ ./src/config.ts 52:16-34
+ @ ./src/extension.ts 39:17-36
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\webview.ts[39m[22m
+[1m./src/webview.ts[39m[22m [1m[32m2:29-54[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\webview.ts(2,30)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./src/manager.ts 344:83-103
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\webview.ts[39m[22m
+[1m./src/webview.ts[39m[22m [1m[32m3:41-65[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\webview.ts(3,42)
+      TS2307: Cannot find module 'common/webviewMessages' or its corresponding type declarations.[39m[22m
+ @ ./src/manager.ts 344:83-103
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\webview.ts[39m[22m
+[1m./src/webview.ts[39m[22m [1m[32m111:22-23[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\webview.ts(111,23)
+      TS2769: No overload matches this call.
+  Overload 1 of 3, '([1m[31merror[39m[22m[1m: [1m[31mError[39m[22m[1m, options?: Partial<LoggingOptions> | undefined): void', gave the following [1m[31merror[39m[22m[1m.
+    Argument of type 'unknown' is not assignable to parameter of type '[1m[31mError[39m[22m[1m'.
+  Overload 2 of 3, '(message: string, options?: Partial<LoggingOptions> | undefined): void', gave the following [1m[31merror[39m[22m[1m.
+    Argument of type 'unknown' is not assignable to parameter of type 'string'.
+  Overload 3 of 3, '(template: TemplateStringsArray, ...args: any[]): void', gave the following [1m[31merror[39m[22m[1m.
+    Argument of type 'unknown' is not assignable to parameter of type 'TemplateStringsArray'.[39m[22m
+ @ ./src/manager.ts 344:83-103
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\webview.ts[39m[22m
+[1m./src/webview.ts[39m[22m [1m[32m112:16-17[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\webview.ts(112,17)
+      TS18046: 'e' is of type 'unknown'.[39m[22m
+ @ ./src/manager.ts 344:83-103
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\webview.ts[39m[22m
+[1m./src/webview.ts[39m[22m [1m[32m128:16-17[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src\webview.ts(128,17)
+      TS18046: 'e' is of type 'unknown'.[39m[22m
+ @ ./src/manager.ts 344:83-103
+ @ ./src/extension.ts 42:18-38
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigLocator.tsx[39m[22m
+[1m[32m1:55-80[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigLocator.tsx(1,56)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigLocator.tsx[39m[22m
+[1m[32m2:23-30[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigLocator.tsx(2,24)
+      TS2307: Cannot find module 'react' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigLocator.tsx[39m[22m
+[1m[32m17:39-44[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigLocator.tsx(17,40)
+      TS2339: Property 'props' does not exist on type 'ConfigLocator'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\NewConfig.tsx[39m[22m
+[1m[32m1:72-97[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\NewConfig.tsx(1,73)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\NewConfig.tsx[39m[22m
+[1m[32m2:23-30[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\NewConfig.tsx(2,24)
+      TS2307: Cannot find module 'react' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\NewConfig.tsx[39m[22m
+[1m[32m26:81-86[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\NewConfig.tsx(26,82)
+      TS2339: Property 'props' does not exist on type 'NewConfig'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\NewConfig.tsx[39m[22m
+[1m[32m52:32-37[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\NewConfig.tsx(52,33)
+      TS2339: Property 'props' does not exist on type 'NewConfig'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\NewConfig.tsx[39m[22m
+[1m[32m52:51-56[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\NewConfig.tsx(52,52)
+      TS2339: Property 'props' does not exist on type 'NewConfig'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\NewConfig.tsx[39m[22m
+[1m[32m52:68-73[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\NewConfig.tsx(52,69)
+      TS2339: Property 'props' does not exist on type 'NewConfig'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx[39m[22m
+[1m[32m1:102-127[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx(1,103)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx[39m[22m
+[1m[32m2:23-30[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx(2,24)
+      TS2307: Cannot find module 'react' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx[39m[22m
+[1m[32m21:13-18[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx(21,14)
+      TS2339: Property 'props' does not exist on type 'Startscreen'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx[39m[22m
+[1m[32m24:30-35[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx(24,31)
+      TS2339: Property 'props' does not exist on type 'Startscreen'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx[39m[22m
+[1m[32m24:95-100[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx(24,96)
+      TS2339: Property 'props' does not exist on type 'Startscreen'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx[39m[22m
+[1m[32m26:33-38[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx(26,34)
+      TS2339: Property 'props' does not exist on type 'Startscreen'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx[39m[22m
+[1m[32m30:34-39[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx(30,35)
+      TS2339: Property 'props' does not exist on type 'Startscreen'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx[39m[22m
+[1m[32m36:27-32[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx(36,28)
+      TS2339: Property 'props' does not exist on type 'Startscreen'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx[39m[22m
+[1m[32m42:34-39[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx(42,35)
+      TS2339: Property 'props' does not exist on type 'Startscreen'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx[39m[22m
+[1m[32m43:41-46[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx(43,42)
+      TS2339: Property 'props' does not exist on type 'Startscreen'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx[39m[22m
+[1m[32m43:66-71[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx(43,67)
+      TS2339: Property 'props' does not exist on type 'Startscreen'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\index.tsx[39m[22m
+[1m[32m1:26-37[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\index.tsx(1,27)
+      TS2307: Cannot find module 'react-dom' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\index.tsx[39m[22m
+[1m[32m2:25-38[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\index.tsx(2,26)
+      TS2307: Cannot find module 'react-redux' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\index.tsx[39m[22m
+[1m[32m9:3-11[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\index.tsx(9,4)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\index.tsx[39m[22m
+[1m[32m10:5-8[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\index.tsx(10,6)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\index.tsx[39m[22m
+[1m[32m11:7-13[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\index.tsx(11,8)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\redux.ts[39m[22m
+[1m[32m1:23-30[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\redux.ts(1,24)
+      TS2307: Cannot find module 'react' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\redux.ts[39m[22m
+[1m[32m2:39-52[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\redux.ts(2,40)
+      TS2307: Cannot find module 'react-redux' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\redux.ts[39m[22m
+[1m[32m3:55-62[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\redux.ts(3,56)
+      TS2307: Cannot find module 'redux' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\router.tsx[39m[22m
+[1m[32m13:20-32[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\router.tsx(13,21)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\router.tsx[39m[22m
+[1m[32m15:20-33[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\router.tsx(15,21)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\router.tsx[39m[22m
+[1m[32m17:20-29[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\router.tsx(17,21)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\router.tsx[39m[22m
+[1m[32m20:20-31[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\router.tsx(20,21)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\vscode.ts[39m[22m
+[1m[32m2:54-79[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\vscode.ts(2,55)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\vscode.ts[39m[22m
+[1m[32m3:93-117[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\vscode.ts(3,94)
+      TS2307: Cannot find module 'common/webviewMessages' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\configGroupField.tsx[39m[22m
+[1m[32m1:26-51[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\configGroupField.tsx(1,27)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m[32m1:52-77[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(1,53)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m[32m2:23-30[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(2,24)
+      TS2307: Cannot find module 'react' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m[32m28:22-25[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(28,23)
+      TS2322: Type '{ key: string; label: string; value: any; onChange: (value: string) => void; validator: any; description: string; }' is not assignable to type 'Props<string | undefined>'.
+  Property 'key' does not exist on type 'Props<string | undefined>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m[32m34:22-25[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(34,23)
+      TS2322: Type '{ key: string; label: string; value: any; onChange: (newValue?: string | undefined) => void; optional: true; description: string; }' is not assignable to type 'Props<string | undefined>'.
+  Property 'key' does not exist on type 'Props<string | undefined>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m[32m48:24-27[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(48,25)
+      TS2322: Type '{ onChange: (newValue: string) => void; value: string; values: string[]; description: string; key: string; label: string; }' is not assignable to type 'Props<string> & Props<string>'.
+  Property 'key' does not exist on type 'Props<string> & Props<string>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m[32m63:33-36[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(63,34)
+      TS2322: Type '{ onChange: (newValue: string) => void; optional: true; value: any; values: string[]; description: string; key: string; label: string; }' is not assignable to type 'Props<string | undefined> & Props'.
+  Property 'key' does not exist on type 'Props<string | undefined> & Props'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m[32m71:33-36[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(71,34)
+      TS2322: Type '{ onChange: (newValue?: string | undefined) => void; optional: true; value: any; values: string[]; description: string; key: string; label: string; }' is not assignable to type 'Props<string | undefined> & Props'.
+  Property 'key' does not exist on type 'Props<string | undefined> & Props'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m[32m77:22-25[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(77,23)
+      TS2322: Type '{ key: string; label: string; value: any; onChange: (value: number) => void; optional: true; description: string; }' is not assignable to type 'Props<number>'.
+  Property 'key' does not exist on type 'Props<number>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m[32m83:22-25[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(83,23)
+      TS2322: Type '{ key: string; label: string; value: any; onChange: (value: string) => void; optional: true; validator: (value?: string | undefined) => string | null; description: string; }' is not assignable to type 'Props<string | undefined>'.
+  Property 'key' does not exist on type 'Props<string | undefined>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m[32m90:33-36[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(90,34)
+      TS2322: Type '{ onChange: (newValue: string) => void; optional: true; value: any; values: string[]; description: string; key: string; label: string; }' is not assignable to type 'Props<string | undefined> & Props'.
+  Property 'key' does not exist on type 'Props<string | undefined> & Props'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m[32m98:33-36[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(98,34)
+      TS2322: Type '{ onChange: (newValue?: string | undefined) => void; optional: true; value: any; values: string[]; description: string; key: string; label: string; }' is not assignable to type 'Props<string | undefined> & Props'.
+  Property 'key' does not exist on type 'Props<string | undefined> & Props'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m[32m106:33-36[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(106,34)
+      TS2322: Type '{ onChange: (newValue?: string | undefined) => void; optional: true; value: any; values: string[]; description: string; key: string; label: string; }' is not assignable to type 'Props<string | undefined> & Props'.
+  Property 'key' does not exist on type 'Props<string | undefined> & Props'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m[32m112:20-23[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(112,21)
+      TS2322: Type '{ key: string; label: string; value: any; onChange: (newValue?: string | undefined) => void; optional: true; description: string; }' is not assignable to type 'Props<string | undefined>'.
+  Property 'key' does not exist on type 'Props<string | undefined>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m[32m120:33-36[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(120,34)
+      TS2322: Type '{ onChange: (newValue?: string | undefined) => void; optional: true; value: any; values: string[]; description: string; key: string; label: string; }' is not assignable to type 'Props<string | undefined> & Props'.
+  Property 'key' does not exist on type 'Props<string | undefined> & Props'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m[32m130:24-27[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(130,25)
+      TS2322: Type '{ key: string; label: string; value: boolean; onChange: (newValue?: boolean | undefined) => void; description: string; postface: any; }' is not assignable to type 'Props<boolean> & Props'.
+  Property 'key' does not exist on type 'Props<boolean> & Props'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m[32m137:21-24[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(137,22)
+      TS2322: Type '{ key: string; label: string; value: number; onChange: (newValue?: number | undefined) => void; description: string; optional: true; }' is not assignable to type 'Props<number | undefined>'.
+  Property 'key' does not exist on type 'Props<number | undefined>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m[32m143:22-25[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(143,23)
+      TS2322: Type '{ key: string; label: string; value: any; onChange: (newValue?: string | undefined) => void; optional: true; validator: (value?: string | undefined) => string | null; description: string; }' is not assignable to type 'Props<string | undefined>'.
+  Property 'key' does not exist on type 'Props<string | undefined>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m[32m151:33-36[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(151,34)
+      TS2322: Type '{ onChange: (newValue?: string | undefined) => void; optional: true; value: any; values: string[]; description: string; key: string; label: string; }' is not assignable to type 'Props<string | undefined> & Props'.
+  Property 'key' does not exist on type 'Props<string | undefined> & Props'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m[32m160:33-36[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(160,34)
+      TS2322: Type '{ onChange: (newValue?: string | undefined) => void; optional: true; value: any; values: string[]; description: string; key: string; label: string; }' is not assignable to type 'Props<string | undefined> & Props'.
+  Property 'key' does not exist on type 'Props<string | undefined> & Props'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m[32m169:33-36[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(169,34)
+      TS2322: Type '{ onChange: (newValue?: string | undefined) => void; optional: true; value: any; values: string[]; description: string; key: string; label: string; }' is not assignable to type 'Props<string | undefined> & Props'.
+  Property 'key' does not exist on type 'Props<string | undefined> & Props'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m[32m176:33-36[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(176,34)
+      TS2322: Type '{ onChange: (newValue?: string | undefined) => void; optional: true; value: any; values: string[]; description: any; key: string; label: string; }' is not assignable to type 'Props<string | undefined> & Props'.
+  Property 'key' does not exist on type 'Props<string | undefined> & Props'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx[39m[22m
+[1m[32m1:55-80[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx(1,56)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx[39m[22m
+[1m[32m2:23-30[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx(2,24)
+      TS2307: Cannot find module 'react' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx[39m[22m
+[1m[32m24:46-51[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx(24,47)
+      TS2339: Property 'props' does not exist on type 'ConfigEditor'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx[39m[22m
+[1m[32m28:61-66[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx(28,62)
+      TS2339: Property 'props' does not exist on type 'ConfigEditor'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx[39m[22m
+[1m[32m37:61-66[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx(37,62)
+      TS2339: Property 'props' does not exist on type 'ConfigEditor'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx[39m[22m
+[1m[32m38:61-66[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx(38,62)
+      TS2339: Property 'props' does not exist on type 'ConfigEditor'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx[39m[22m
+[1m[32m39:62-67[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx(39,63)
+      TS2339: Property 'props' does not exist on type 'ConfigEditor'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx[39m[22m
+[1m[32m46:13-18[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx(46,14)
+      TS2339: Property 'props' does not exist on type 'ConfigEditor'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx[39m[22m
+[1m[32m46:42-47[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx(46,43)
+      TS2339: Property 'props' does not exist on type 'ConfigEditor'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx[39m[22m
+[1m[32m50:13-18[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx(50,14)
+      TS2339: Property 'props' does not exist on type 'ConfigEditor'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx[39m[22m
+[1m[32m50:42-47[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx(50,43)
+      TS2339: Property 'props' does not exist on type 'ConfigEditor'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\proxyFields.tsx[39m[22m
+[1m[32m1:38-63[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\proxyFields.tsx(1,39)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\proxyFields.tsx[39m[22m
+[1m[32m2:23-30[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\proxyFields.tsx(2,24)
+      TS2307: Cannot find module 'react' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\proxyFields.tsx[39m[22m
+[1m[32m66:23-26[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\proxyFields.tsx(66,24)
+      TS2322: Type '{ displayName: (i: any) => any; onChange: (newValue?: ProxyType | undefined) => void; optional: true; value: any; values: ProxyType[]; description: "The type of proxy to use when connecting to the remote system"; key: string; label: string; }' is not assignable to type 'Props<any> & Props<any>'.
+  Property 'key' does not exist on type 'Props<any> & Props<any>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigList\index.tsx[39m[22m
+[1m[32m1:38-63[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigList\index.tsx(1,39)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigList\index.tsx[39m[22m
+[1m[32m2:23-30[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigList\index.tsx(2,24)
+      TS2307: Cannot find module 'react' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigList\index.tsx[39m[22m
+[1m[32m19:30-35[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigList\index.tsx(19,31)
+      TS2339: Property 'props' does not exist on type 'ConfigList'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigList\index.tsx[39m[22m
+[1m[32m28:37-42[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigList\index.tsx(28,38)
+      TS2339: Property 'props' does not exist on type 'ConfigList'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigList\index.tsx[39m[22m
+[1m[32m30:35-40[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigList\index.tsx(30,36)
+      TS2339: Property 'props' does not exist on type 'ConfigList'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx[39m[22m
+[1m[32m1:23-30[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx(1,24)
+      TS2307: Cannot find module 'react' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx[39m[22m
+[1m[32m28:13-18[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx(28,14)
+      TS2339: Property 'state' does not exist on type 'FieldBase<T, P, S>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx[39m[22m
+[1m[32m38:13-21[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx(38,14)
+      TS2339: Property 'setState' does not exist on type 'FieldBase<T, P, S>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx[39m[22m
+[1m[32m38:47-52[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx(38,48)
+      TS2339: Property 'props' does not exist on type 'FieldBase<T, P, S>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx[39m[22m
+[1m[32m41:31-36[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx(41,32)
+      TS2339: Property 'props' does not exist on type 'FieldBase<T, P, S>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx[39m[22m
+[1m[32m43:13-21[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx(43,14)
+      TS2339: Property 'setState' does not exist on type 'FieldBase<T, P, S>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx[39m[22m
+[1m[32m47:34-39[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx(47,35)
+      TS2339: Property 'state' does not exist on type 'FieldBase<T, P, S>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx[39m[22m
+[1m[32m48:45-50[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx(48,46)
+      TS2339: Property 'props' does not exist on type 'FieldBase<T, P, S>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx[39m[22m
+[1m[32m56:44-49[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx(56,45)
+      TS2339: Property 'state' does not exist on type 'FieldBase<T, P, S>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx[39m[22m
+[1m[32m58:24-29[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx(58,25)
+      TS2339: Property 'props' does not exist on type 'FieldBase<T, P, S>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx[39m[22m
+[1m[32m63:20-25[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx(63,21)
+      TS2339: Property 'props' does not exist on type 'FieldBase<T, P, S>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx[39m[22m
+[1m[32m69:73-78[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\base.tsx(69,74)
+      TS2339: Property 'props' does not exist on type 'FieldBase<T, P, S>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx[39m[22m
+[1m[32m14:37-42[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx(14,38)
+      TS2339: Property 'props' does not exist on type 'FieldCheckbox'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx[39m[22m
+[1m[32m15:15-17[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx(15,16)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx[39m[22m
+[1m[32m15:15-17[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx(15,16)
+      TS2879: Using JSX fragments requires fragment factory 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx[39m[22m
+[1m[32m16:13-16[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx(16,14)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx[39m[22m
+[1m[32m17:29-32[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx(17,30)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx[39m[22m
+[1m[32m17:63-68[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx(17,64)
+      TS2339: Property 'props' does not exist on type 'FieldCheckbox'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx[39m[22m
+[1m[32m21:34-39[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx(21,35)
+      TS2339: Property 'state' does not exist on type 'FieldCheckbox'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx[39m[22m
+[1m[32m22:45-50[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx(22,46)
+      TS2339: Property 'props' does not exist on type 'FieldCheckbox'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx[39m[22m
+[1m[32m32:44-49[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx(32,45)
+      TS2339: Property 'state' does not exist on type 'FieldCheckbox'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx[39m[22m
+[1m[32m34:24-29[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx(34,25)
+      TS2339: Property 'props' does not exist on type 'FieldCheckbox'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx[39m[22m
+[1m[32m39:13-21[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx(39,14)
+      TS2339: Property 'setState' does not exist on type 'FieldCheckbox'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx[39m[22m
+[1m[32m39:47-52[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\checkbox.tsx(39,48)
+      TS2339: Property 'props' does not exist on type 'FieldCheckbox'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\config.tsx[39m[22m
+[1m[32m1:55-80[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\config.tsx(1,56)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\config.tsx[39m[22m
+[1m[32m29:12-25[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\config.tsx(29,13)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdown.tsx[39m[22m
+[1m[32m1:23-30[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdown.tsx(1,24)
+      TS2307: Cannot find module 'react' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdown.tsx[39m[22m
+[1m[32m24:40-45[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdown.tsx(24,41)
+      TS2339: Property 'state' does not exist on type 'FieldDropdown<T>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdown.tsx[39m[22m
+[1m[32m25:37-42[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdown.tsx(25,38)
+      TS2339: Property 'props' does not exist on type 'FieldDropdown<T>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdown.tsx[39m[22m
+[1m[32m34:59-64[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdown.tsx(34,60)
+      TS2339: Property 'props' does not exist on type 'FieldDropdown<T>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdown.tsx[39m[22m
+[1m[32m42:18-23[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdown.tsx(42,19)
+      TS2339: Property 'props' does not exist on type 'FieldDropdown<T>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdown.tsx[39m[22m
+[1m[32m47:13-21[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdown.tsx(47,14)
+      TS2339: Property 'setState' does not exist on type 'FieldDropdown<T>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdown.tsx[39m[22m
+[1m[32m47:60-65[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdown.tsx(47,61)
+      TS2339: Property 'props' does not exist on type 'FieldDropdown<T>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdown.tsx[39m[22m
+[1m[32m49:31-39[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdown.tsx(49,32)
+      TS2339: Property 'setState' does not exist on type 'FieldDropdown<T>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdown.tsx[39m[22m
+[1m[32m49:54-59[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdown.tsx(49,55)
+      TS2339: Property 'state' does not exist on type 'FieldDropdown<T>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdown.tsx[39m[22m
+[1m[32m51:18-23[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdown.tsx(51,19)
+      TS2339: Property 'state' does not exist on type 'FieldDropdown<T>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdownwithinput.tsx[39m[22m
+[1m[32m1:23-30[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdownwithinput.tsx(1,24)
+      TS2307: Cannot find module 'react' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdownwithinput.tsx[39m[22m
+[1m[32m24:40-45[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdownwithinput.tsx(24,41)
+      TS2339: Property 'state' does not exist on type 'FieldDropdownWithInput'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdownwithinput.tsx[39m[22m
+[1m[32m35:56-61[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdownwithinput.tsx(35,57)
+      TS2339: Property 'props' does not exist on type 'FieldDropdownWithInput'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdownwithinput.tsx[39m[22m
+[1m[32m48:13-21[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdownwithinput.tsx(48,14)
+      TS2339: Property 'setState' does not exist on type 'FieldDropdownWithInput'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdownwithinput.tsx[39m[22m
+[1m[32m48:60-65[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdownwithinput.tsx(48,61)
+      TS2339: Property 'props' does not exist on type 'FieldDropdownWithInput'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdownwithinput.tsx[39m[22m
+[1m[32m50:31-39[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdownwithinput.tsx(50,32)
+      TS2339: Property 'setState' does not exist on type 'FieldDropdownWithInput'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdownwithinput.tsx[39m[22m
+[1m[32m50:54-59[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdownwithinput.tsx(50,55)
+      TS2339: Property 'state' does not exist on type 'FieldDropdownWithInput'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdownwithinput.tsx[39m[22m
+[1m[32m52:18-23[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\dropdownwithinput.tsx(52,19)
+      TS2339: Property 'state' does not exist on type 'FieldDropdownWithInput'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\group.tsx[39m[22m
+[1m[32m1:23-30[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\group.tsx(1,24)
+      TS2307: Cannot find module 'react' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\group.tsx[39m[22m
+[1m[32m23:52-57[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\group.tsx(23,53)
+      TS2339: Property 'props' does not exist on type 'FieldGroup<T>'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx[39m[22m
+[1m[32m1:23-30[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx(1,24)
+      TS2307: Cannot find module 'react' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx[39m[22m
+[1m[32m28:35-40[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx(28,36)
+      TS2339: Property 'state' does not exist on type 'FieldList'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx[39m[22m
+[1m[32m29:57-62[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx(29,58)
+      TS2339: Property 'props' does not exist on type 'FieldList'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx[39m[22m
+[1m[32m32:32-40[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx(32,33)
+      TS2339: Property 'setState' does not exist on type 'FieldList'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx[39m[22m
+[1m[32m35:34-39[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx(35,35)
+      TS2339: Property 'state' does not exist on type 'FieldList'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx[39m[22m
+[1m[32m36:38-43[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx(36,39)
+      TS2339: Property 'props' does not exist on type 'FieldList'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx[39m[22m
+[1m[32m47:31-36[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx(47,32)
+      TS2339: Property 'state' does not exist on type 'FieldList'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx[39m[22m
+[1m[32m49:13-21[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx(49,14)
+      TS2339: Property 'setState' does not exist on type 'FieldList'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx[39m[22m
+[1m[32m51:31-36[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx(51,32)
+      TS2339: Property 'state' does not exist on type 'FieldList'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx[39m[22m
+[1m[32m52:22-27[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx(52,23)
+      TS2339: Property 'props' does not exist on type 'FieldList'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx[39m[22m
+[1m[32m52:42-47[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx(52,43)
+      TS2339: Property 'state' does not exist on type 'FieldList'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx[39m[22m
+[1m[32m55:34-39[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx(55,35)
+      TS2339: Property 'state' does not exist on type 'FieldList'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx[39m[22m
+[1m[32m57:13-21[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx(57,14)
+      TS2339: Property 'setState' does not exist on type 'FieldList'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx[39m[22m
+[1m[32m57:47-52[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\list.tsx(57,48)
+      TS2339: Property 'props' does not exist on type 'FieldList'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\number.tsx[39m[22m
+[1m[32m1:23-30[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\number.tsx(1,24)
+      TS2307: Cannot find module 'react' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\number.tsx[39m[22m
+[1m[32m6:34-39[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\number.tsx(6,35)
+      TS2339: Property 'state' does not exist on type 'FieldNumber'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\number.tsx[39m[22m
+[1m[32m9:34-39[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\number.tsx(9,35)
+      TS2339: Property 'state' does not exist on type 'FieldNumber'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\number.tsx[39m[22m
+[1m[32m10:45-50[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\number.tsx(10,46)
+      TS2339: Property 'props' does not exist on type 'FieldNumber'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\number.tsx[39m[22m
+[1m[32m20:44-49[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\number.tsx(20,45)
+      TS2339: Property 'state' does not exist on type 'FieldNumber'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\number.tsx[39m[22m
+[1m[32m22:24-29[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\number.tsx(22,25)
+      TS2339: Property 'props' does not exist on type 'FieldNumber'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\number.tsx[39m[22m
+[1m[32m28:13-21[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\number.tsx(28,14)
+      TS2339: Property 'setState' does not exist on type 'FieldNumber'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\number.tsx[39m[22m
+[1m[32m28:47-52[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\number.tsx(28,48)
+      TS2339: Property 'props' does not exist on type 'FieldNumber'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\path.tsx[39m[22m
+[1m[32m1:23-30[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\path.tsx(1,24)
+      TS2307: Cannot find module 'react' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\path.tsx[39m[22m
+[1m[32m9:31-36[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\path.tsx(9,32)
+      TS2339: Property 'state' does not exist on type 'FieldPath'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\string.tsx[39m[22m
+[1m[32m1:23-30[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\string.tsx(1,24)
+      TS2307: Cannot find module 'react' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\string.tsx[39m[22m
+[1m[32m5:53-60[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\string.tsx(5,54)
+      TS2339: Property 'props' does not exist on type 'FieldString'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\string.tsx[39m[22m
+[1m[32m5:76-83[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\string.tsx(5,77)
+      TS2339: Property 'state' does not exist on type 'FieldString'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\string.tsx[39m[22m
+[1m[32m10:34-39[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\string.tsx(10,35)
+      TS2339: Property 'state' does not exist on type 'FieldString'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m20:25-30[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(20,26)
+      TS2339: Property 'state' does not exist on type 'FieldUmask'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m24:20-22[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(24,21)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m25:17-20[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(25,18)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m26:21-24[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(26,22)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m31:55-57[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(31,56)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m32:13-15[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(32,14)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m37:15-17[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(37,16)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m37:15-17[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(37,16)
+      TS2879: Using JSX fragments requires fragment factory 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m38:13-18[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(38,14)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m39:17-22[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(39,18)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m40:21-23[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(40,22)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m40:25-27[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(40,26)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m40:31-33[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(40,32)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m40:44-46[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(40,45)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m40:58-60[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(40,59)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m46:13-17[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(46,14)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m48:17-21[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(48,18)
+      TS2874: This JSX tag requires 'React' to be in scope, but it could not be found.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m57:34-39[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(57,35)
+      TS2339: Property 'state' does not exist on type 'FieldUmask'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m58:45-50[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(58,46)
+      TS2339: Property 'props' does not exist on type 'FieldUmask'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m68:44-49[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(68,45)
+      TS2339: Property 'state' does not exist on type 'FieldUmask'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m70:24-29[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(70,25)
+      TS2339: Property 'props' does not exist on type 'FieldUmask'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m75:13-21[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(75,14)
+      TS2339: Property 'setState' does not exist on type 'FieldUmask'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx[39m[22m
+[1m[32m77:23-28[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\umask.tsx(77,24)
+      TS2339: Property 'props' does not exist on type 'FieldUmask'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\data\actions.ts[39m[22m
+[1m[32m1:54-79[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\data\actions.ts(1,55)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\data\index.ts[39m[22m
+[1m[32m2:27-34[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\data\index.ts(2,28)
+      TS2307: Cannot find module 'redux' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\data\state.ts[39m[22m
+[1m[32m1:54-79[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\data\state.ts(1,55)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\tests\redux.tsx[39m[22m
+[1m[32m1:23-30[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\tests\redux.tsx(1,24)
+      TS2307: Cannot find module 'react' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\actions.ts[39m[22m
+[1m[32m1:54-79[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\actions.ts(1,55)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts[39m[22m
+[1m[32m2:27-34[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts(2,28)
+      TS2307: Cannot find module 'redux' or its corresponding type declarations.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\state.ts[39m[22m
+[1m[32m1:54-79[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\state.ts(1,55)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+
+[1m[33m224 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.[39m[22m
+
+webpack 5.106.1 compiled with [1m[31m224 errors[39m[22m and [1m[33m3 warnings[39m[22m in 7491 ms
+ ELIFECYCLE  Command failed with exit code 1.
