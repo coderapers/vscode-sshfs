@@ -58,7 +58,11 @@ export async function calculateActualConfig(config: FileSystemConfig): Promise<F
   const logging = Logging.scope();
   // Add the internal _calculated field to cache the actual config for the next calculateActualConfig call
   // (and it also allows accessing the original config that generated this actual config, if ever necessary)
-  config = { ...config, _calculated: config };
+  config = { ...config, _calculated: config, ...{
+    keepaliveInterval: 10000, // Пинговать сервер каждые 10 секунд
+    keepaliveCountMax: 3,     // Разорвать соединение только после 3 неудачных попыток
+    readyTimeout: 20000       // Увеличить время ожидания готовности
+  } };
   // Windows uses `$USERNAME` while Unix uses `$USER`, let's normalize it here
   if (config.username === '$USERNAME') config.username = '$USER';
   // Delay handling just `$USER` until later, as PuTTY might handle it specially
