@@ -3,20 +3,17 @@
         "outDir": "../out/webview",
         "sourceMap": true,
         "noImplicitAny": false,
-        "module": "es6",
-        "target": "es6",
+        "module": "ESNext",
+        "target": "ES2020",
         "jsx": "react-jsx",
         "moduleResolution": "node",
-        "baseUrl": ".", 
+        "baseUrl": ".",
         "paths": {
             "common/*": ["../common/*"]
         },
-        "lib": [
-            "es2018",
-            "dom"
-        ]
+        "lib": ["ES2020", "DOM", "DOM.Iterable"],
+        "skipLibCheck": true,
+        "esModuleInterop": true
     },
-    "include": [
-        "src/**/*"
-    ]
+    "include": ["src/**/*", "../common/**/*"]
 }

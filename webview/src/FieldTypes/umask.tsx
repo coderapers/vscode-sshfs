@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { FieldBase } from './base';
 
 const PERM_MAP: Record<number, string> = {
