@@ -8,5 +8,5 @@ export * from './state';
 export { actions };
 
 export function initStore(store: Store) {
-  addListener((msg) => store.dispatch(actions.receivedData(msg.configs, msg.locations)), 'responseData');
+  addListener((msg) => store.dispatch(actions.receivedData(msg.configs, msg.locations) as any), 'responseData');
 }

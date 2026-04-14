@@ -17,11 +17,11 @@ export function initStore(store: Store) {
         let { config } = navigation;
         if (Array.isArray(config)) {
           if (config.length !== 1) {
-            return store.dispatch(actions.openConfigLocator(config, config[0].name));
+            return store.dispatch(actions.openConfigLocator(config, config[0].name) as any);
           }
           config = config[0];
         }
-        return store.dispatch(actions.openConfigEditor(config));
+        return store.dispatch(actions.openConfigEditor(config) as any);
       }
     }
   }, 'navigate');
