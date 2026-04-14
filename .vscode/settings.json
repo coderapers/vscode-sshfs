@@ -1,0 +1,15 @@
+{
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.preferences.quoteStyle": "single",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
+  "markdownlint.config": {
+    "no-duplicate-header": {
+      "allow_different_nesting": true
+    }
+  }
+}
