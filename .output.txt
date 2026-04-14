@@ -2132,5 +2132,5 @@ For more info visit https://webpack.js.org/guides/code-splitting/[39m[22m
 [1m[33m385 errors have detailed information that is not shown.
 Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.[39m[22m
 
-webpack 5.106.1 compiled with [1m[31m385 errors[39m[22m and [1m[33m3 warnings[39m[22m in 6960 ms
+webpack 5.106.1 compiled with [1m[31m385 errors[39m[22m and [1m[33m3 warnings[39m[22m in 6984 ms
  ELIFECYCLE  Command failed with exit code 1.

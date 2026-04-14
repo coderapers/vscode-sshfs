@@ -1,34 +1,18 @@
 {
-  "compilerOptions": {
-    "outDir": "build/dist",
-    "module": "esnext",
-    "target": "es5",
-    "lib": [
-      "es6",
-      "dom"
-    ],
-    "sourceMap": true,
-    "allowJs": true,
-    "jsx": "react-jsx",
-    "moduleResolution": "node",
-    "rootDir": "src",
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noImplicitAny": true,
-    "importHelpers": true,
-    "strictNullChecks": true,
-    "noUnusedLocals": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "noFallthroughCasesInSwitch": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true
-  },
-  "include": [
-    "src",
-    "public"
-  ]
+	"compilerOptions": {
+		"outDir": "../out/webview",
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"module": "es6",
+		"target": "es6",
+		"jsx": "react", 
+		"moduleResolution": "node",
+		"lib": [
+			"es2018",
+			"dom"
+		]
+	},
+	"include": [
+		"src/**/*"
+	]
 }
