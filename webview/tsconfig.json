@@ -1,18 +1,22 @@
 {
-	"compilerOptions": {
-		"outDir": "../out/webview",
-		"sourceMap": true,
-		"noImplicitAny": true,
-		"module": "es6",
-		"target": "es6",
-		"jsx": "react", 
-		"moduleResolution": "node",
-		"lib": [
-			"es2018",
-			"dom"
-		]
-	},
-	"include": [
-		"src/**/*"
-	]
+    "compilerOptions": {
+        "outDir": "../out/webview",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "es6",
+        "target": "es6",
+        "jsx": "react",
+        "moduleResolution": "node",
+        "baseUrl": ".", 
+        "paths": {
+            "common/*": ["../common/*"]
+        },
+        "lib": [
+            "es2018",
+            "dom"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ]
 }
