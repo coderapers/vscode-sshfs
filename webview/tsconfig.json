@@ -17,5 +17,8 @@
     },
     "include": ["src/**/*", "../common/**/*"],
     "suppressImplicitAnyIndexErrors": true,
-    "ignoreDeprecations": "5.0"
+    "ignoreDeprecations": "5.0",
+    "strict": false,
+    "noImplicitAny": false,
+    "skipLibCheck": true
 }

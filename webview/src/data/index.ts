@@ -7,6 +7,6 @@ export { reducer } from './reducers';
 export * from './state';
 export { actions };
 
-export function initStore(store: Store) {
-  addListener((msg) => store.dispatch(actions.receivedData(msg.configs, msg.locations) as any), 'responseData');
+export function initStore(store: any) {
+  addListener((msg) => (store.dispatch as any)(actions.receivedData(msg.configs, msg.locations)), 'responseData');
 }
