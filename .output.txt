@@ -2,75 +2,46 @@
 > vscode-sshfs@1.26.1 compile D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs
 > webpack --mode development
 
-Compilation starting
-Compilation finished
-[CopyPuttyExecutable] Wrote 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\node_modules\.pnpm\ssh2@1.17.0\node_modules\ssh2\util\pagent.exe' to 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\util\pagent.exe'
-Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 1.57 MiB (1.65 MiB) = [1m[32mextension.js[39m[22m 1 auxiliary asset
-hidden modules 882 bytes 21 modules
-runtime modules 670 bytes 3 modules
-modules by path [./node_modules/.pnpm/] 1.18 MiB
-  javascript modules 1.1 MiB
-    modules by path [./node_modules/.pnpm/semver@7.7.4/node_modules/semver/] 63.4 KiB 45 modules
-    modules by path [./node_modules/.pnpm/ssh2@1.17.0/node_modules/ssh2/lib/] 592 KiB 20 modules
-    modules by path [./node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/] 112 KiB 13 modules
-    modules by path [./node_modules/.pnpm/ip-address@10.1.0/node_modules/ip-address/dist/] 56 KiB 9 modules
-    modules by path [./node_modules/.pnpm/jsonc-parser@3.3.1/node_modules/jsonc-parser/lib/esm/] 73.3 KiB
-      [./node_modules/.pnpm/jsonc-parser@3.3.1/node_modules/jsonc-parser/lib/esm/main.js] 9.14 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
-      + 5 modules
-    modules by path [./node_modules/.pnpm/socks@2.8.7/node_modules/socks/build/] 52 KiB
-      modules by path [./node_modules/.pnpm/socks@2.8.7/node_modules/socks/build/common/*.js] 16.3 KiB 4 modules
-      + 2 modules
-    modules by path [./node_modules/.pnpm/asn1@0.2.6/node_modules/asn1/lib/] 14.6 KiB
-      [./node_modules/.pnpm/asn1@0.2.6/node_modules/asn1/lib/index.js] 320 bytes {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
-      + 5 modules
-    modules by path [./node_modules/.pnpm/smart-buffer@4.2.0/node_modules/smart-buffer/build/*.js] 47.6 KiB
-      [./node_modules/.pnpm/smart-buffer@4.2.0/node_modules/smart-buffer/build/smartbuffer.js] 43.5 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
-      [./node_modules/.pnpm/smart-buffer@4.2.0/node_modules/smart-buffer/build/utils.js] 4.17 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
-    + 5 modules
+asset [1m[32mextension.js[39m[22m 1.77 MiB [1m[33m[compared for emit][39m[22m (name: main)
+runtime modules 793 bytes 4 modules
+modules by path [1m./node_modules/.pnpm/[39m[22m 1.3 MiB
+  javascript modules 1.21 MiB 125 modules
   json modules 87.5 KiB
-    [./node_modules/.pnpm/ssh2@1.17.0/node_modules/ssh2/package.json] 883 bytes {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
-    [./node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/encodings/tables/shiftjis.json] 8.78 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
-    [./node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/encodings/tables/eucjp.json] 15.1 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
-    [./node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/encodings/tables/cp936.json] 20.1 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
-    [./node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/encodings/tables/gbk-added.json] 926 bytes {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
-    [./node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json] 2.17 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
-    [./node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/encodings/tables/cp949.json] 16.7 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
-    [./node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/encodings/tables/cp950.json] 15.2 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
-    [./node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/encodings/tables/big5-added.json] 7.85 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
-modules by path [./src/*.ts] 184 KiB
+    [1m./node_modules/.pnpm/ssh2@1.17.0/node_modules/ssh2/package.json[39m[22m 883 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m./node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/encodings/tables...(truncated)[39m[22m 8.78 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 7 modules
+modules by path [1m./src/*.ts[39m[22m 184 KiB
   modules with errors 166 KiB [1m[31m[true errors][39m[22m
-    [./src/extension.ts] 8.24 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[1 error][39m[22m
-    [./src/config.ts] 24.9 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[2 errors][39m[22m
-    [./src/logging.ts] 10.5 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[4 errors][39m[22m
-    [./src/fileSystemRouter.ts] 4.54 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[1 error][39m[22m
-    [./src/manager.ts] 17.2 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[7 errors][39m[22m
-    [./src/treeViewManager.ts] 5.45 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[4 errors][39m[22m
-    [./src/ui-utils.ts] 8.83 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[4 errors][39m[22m
-    [./src/utils.ts] 4.94 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[2 errors][39m[22m
-    [./src/connection.ts] 14.6 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[3 errors][39m[22m
-    [./src/connect.ts] 20.6 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[2 errors][39m[22m
-    [./src/webview.ts] 8.14 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[5 errors][39m[22m
-    [./src/pseudoTerminal.ts] 16 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[2 errors][39m[22m
-    [./src/sshFileSystem.ts] 13.2 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[9 errors][39m[22m
-    [./src/putty.ts] 4.1 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[1 error][39m[22m
-    [./src/proxy.ts] 4.37 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[3 errors][39m[22m
-  [./src/flags.ts] 10.1 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
-  [./src/shellConfig.ts] 7.82 KiB {[1m[33mmain[39m[22m} [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m./src/extension.ts[39m[22m 8.24 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[1 error][39m[22m
+    [1m./src/config.ts[39m[22m 24.9 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m [1m[31m[2 errors][39m[22m
+    + 13 modules
+  [1m./src/flags.ts[39m[22m 10.1 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1m./src/shellConfig.ts[39m[22m 7.82 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
++ 19 modules
 
-[1m[33mWARNING[39m[22m in [1masset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
-This can impact web performance.
-Assets: 
-  extension.js (1.57 MiB)[39m[22m
+[1m[33mWARNING[39m[22m in [1m./node_modules/.pnpm/ssh2@1.17.0/node_modules/ssh2/lib/protocol/crypto.js[39m[22m [1m[32m30:12-60[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './crypto/build/Release/sshcrypto.node' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\node_modules\.pnpm\ssh2@1.17.0\node_modules\ssh2\lib\protocol'[39m[22m
+ @ ./node_modules/.pnpm/ssh2@1.17.0/node_modules/ssh2/lib/client.js 34:29-60
+ @ ./node_modules/.pnpm/ssh2@1.17.0/node_modules/ssh2/lib/index.js 27:10-32
+ @ ./src/connect.ts 43:15-30
+ @ ./src/manager.ts 90:80-100
+ @ ./src/extension.ts 42:18-38
 
-[1m[33mWARNING[39m[22m in [1mentrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
-Entrypoints:
-  main (1.57 MiB)
-      extension.js
-[39m[22m
+[1m[33mWARNING[39m[22m in [1m./src/logging.ts[39m[22m [1m[32m51:8-33[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '.pnp.cjs' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src'[39m[22m
+ @ ./src/extension.ts 41:18-38
 
-[1m[33mWARNING[39m[22m in [1mwebpack performance recommendations: 
-You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
-For more info visit https://webpack.js.org/guides/code-splitting/[39m[22m
+2 warnings have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+[1m[31mERROR[39m[22m in [1m./node_modules/.pnpm/cpu-features@0.0.10/node_modules/cpu-features/lib/index.js[39m[22m [1m[32m3:16-60[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../build/Release/cpufeatures.node' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\node_modules\.pnpm\cpu-features@0.0.10\node_modules\cpu-features\lib'[39m[22m
+ @ ./node_modules/.pnpm/ssh2@1.17.0/node_modules/ssh2/lib/protocol/constants.js 7:12-35
+ @ ./node_modules/.pnpm/ssh2@1.17.0/node_modules/ssh2/lib/client.js 33:4-38
+ @ ./node_modules/.pnpm/ssh2@1.17.0/node_modules/ssh2/lib/index.js 27:10-32
+ @ ./src/connect.ts 43:15-30
+ @ ./src/manager.ts 90:80-100
+ @ ./src/extension.ts 42:18-38
 
 [1m[31mERROR[39m[22m in [1m./src/config.ts[39m[22m [1m[32m46:27-61[39m[22m
 [1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'common/fileSystemConfig' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\src'[39m[22m
@@ -573,12 +544,6 @@ For more info visit https://webpack.js.org/guides/code-splitting/[39m[22m
 [1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\data\actions.ts(1,55)
       TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
 
-[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\data\index.ts[39m[22m
-[1m[32m11:38-86[39m[22m
-[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\data\index.ts(11,39)
-      TS2345: Argument of type 'IActionReceivedConfigs' is not assignable to parameter of type 'UnknownAction'.
-  Index signature for type 'string' is missing in type 'IActionReceivedConfigs'.[39m[22m
-
 [1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\data\state.ts[39m[22m
 [1m[32m1:54-79[39m[22m
 [1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\data\state.ts(1,55)
@@ -595,25 +560,418 @@ For more info visit https://webpack.js.org/guides/code-splitting/[39m[22m
       TS2345: Argument of type 'IActionOpenNewConfig' is not assignable to parameter of type 'UnknownAction'.
   Index signature for type 'string' is missing in type 'IActionOpenNewConfig'.[39m[22m
 
-[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts[39m[22m
-[1m[32m20:34-83[39m[22m
-[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts(20,35)
-      TS2345: Argument of type 'IActionOpenConfigLocator' is not assignable to parameter of type 'UnknownAction'.
-  Index signature for type 'string' is missing in type 'IActionOpenConfigLocator'.[39m[22m
-
-[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts[39m[22m
-[1m[32m24:30-62[39m[22m
-[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts(24,31)
-      TS2345: Argument of type 'IActionOpenConfigEditor' is not assignable to parameter of type 'UnknownAction'.
-  Index signature for type 'string' is missing in type 'IActionOpenConfigEditor'.[39m[22m
-
 [1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\state.ts[39m[22m
 [1m[32m1:54-79[39m[22m
 [1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\state.ts(1,55)
       TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
 
-[1m[33m83 errors have detailed information that is not shown.
+[1m[33m81 errors have detailed information that is not shown.
 Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.[39m[22m
 
-webpack 5.106.1 compiled with [1m[31m83 errors[39m[22m and [1m[33m3 warnings[39m[22m in 8136 ms
+webpack 5.106.1 compiled with [1m[31m81 errors[39m[22m and [1m[33m2 warnings[39m[22m in 12578 ms
+
+asset [1m[32mindex.js[39m[22m 290 KiB [1m[33m[compared for emit][39m[22m (name: main)
+runtime modules 1.07 KiB 6 modules
+modules by path [1m./webview/src/[39m[22m 66.2 KiB
+  modules with errors 32.5 KiB [1m[31m[true errors][39m[22m 17 modules
+  modules by path [1m./webview/src/*.css[39m[22m 3.36 KiB 2 modules
+  modules by path [1m./webview/src/ConfigEditor/*.css[39m[22m 2.43 KiB 2 modules
+  modules by path [1m./webview/src/ConfigList/*.css[39m[22m 2.7 KiB 2 modules
+  modules by path [1m./webview/src/FieldTypes/*.css[39m[22m 6.93 KiB 2 modules
+  + 14 modules
+modules by path [1m./node_modules/.pnpm/[39m[22m 111 KiB
+  modules by path [1m./node_modules/.pnpm/style-loader@4.0.0_webpack@5.106.1/node_modules/style-loade...(truncated)[39m[22m 5.84 KiB 6 modules
+  modules by path [1m./node_modules/.pnpm/react@19.2.5/node_modules/react/[39m[22m 46.3 KiB 2 modules
+  modules by path [1m./node_modules/.pnpm/use-sync-external-store@1.6.0_react@19.2.5/node_modules/use...(truncated)[39m[22m 3.63 KiB 2 modules
+  modules by path [1m./node_modules/.pnpm/css-loader@7.1.4_webpack@5.106.1/node_modules/css-loader/di...(truncated)[39m[22m 2.31 KiB 2 modules
+  [1m./node_modules/.pnpm/react-redux@9.2.0_@types+re_f291f06cd14497faeef4b5dc73fb415...(truncated)[39m[22m 36.6 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1m./node_modules/.pnpm/redux@5.0.1/node_modules/redux/dist/redux.mjs[39m[22m 16.4 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./webview/src/ConfigEditor/configGroupField.tsx[39m[22m [1m[32m1:0-52[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'common/fileSystemConfig' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor'[39m[22m
+ @ ./webview/src/ConfigEditor/fields.tsx 11:0-50 34:16-32
+ @ ./webview/src/ConfigEditor/index.tsx 8:0-35 24:415-432
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/ConfigEditor/fields.tsx[39m[22m [1m[32m1:0-86[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react/jsx-runtime' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor'[39m[22m
+ @ ./webview/src/ConfigEditor/index.tsx 8:0-35 24:415-432
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/ConfigEditor/fields.tsx[39m[22m [1m[32m2:0-60[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'common/fileSystemConfig' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor'[39m[22m
+ @ ./webview/src/ConfigEditor/index.tsx 8:0-35 24:415-432
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/ConfigEditor/index.tsx[39m[22m [1m[32m1:0-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react/jsx-runtime' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor'[39m[22m
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/ConfigEditor/index.tsx[39m[22m [1m[32m2:0-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'common/fileSystemConfig' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor'[39m[22m
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/ConfigEditor/index.tsx[39m[22m [1m[32m3:0-31[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor'[39m[22m
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/ConfigEditor/proxyFields.tsx[39m[22m [1m[32m1:0-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react/jsx-runtime' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor'[39m[22m
+ @ ./webview/src/ConfigEditor/fields.tsx 12:0-44 157:4-15
+ @ ./webview/src/ConfigEditor/index.tsx 8:0-35 24:415-432
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/ConfigEditor/proxyFields.tsx[39m[22m [1m[32m2:0-31[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor'[39m[22m
+ @ ./webview/src/ConfigEditor/fields.tsx 12:0-44 157:4-15
+ @ ./webview/src/ConfigEditor/index.tsx 8:0-35 24:415-432
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/ConfigList/index.tsx[39m[22m [1m[32m1:0-48[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react/jsx-runtime' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigList'[39m[22m
+ @ ./webview/src/ConfigLocator.tsx 4:0-38 12:126-136
+ @ ./webview/src/router.tsx 3:0-44 12:24-37
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/ConfigList/index.tsx[39m[22m [1m[32m2:0-31[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigList'[39m[22m
+ @ ./webview/src/ConfigLocator.tsx 4:0-38 12:126-136
+ @ ./webview/src/router.tsx 3:0-44 12:24-37
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/ConfigLocator.tsx[39m[22m [1m[32m1:0-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react/jsx-runtime' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src'[39m[22m
+ @ ./webview/src/router.tsx 3:0-44 12:24-37
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/ConfigLocator.tsx[39m[22m [1m[32m2:0-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'common/fileSystemConfig' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src'[39m[22m
+ @ ./webview/src/router.tsx 3:0-44 12:24-37
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/ConfigLocator.tsx[39m[22m [1m[32m3:0-31[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src'[39m[22m
+ @ ./webview/src/router.tsx 3:0-44 12:24-37
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/FieldTypes/base.tsx[39m[22m [1m[32m1:0-86[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react/jsx-runtime' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes'[39m[22m
+ @ ./webview/src/FieldTypes/dropdown.tsx 3:0-35 4:35-44
+ @ ./webview/src/NewConfig.tsx 4:0-54 19:324-337
+ @ ./webview/src/router.tsx 4:0-36 14:24-33
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/FieldTypes/base.tsx[39m[22m [1m[32m2:0-31[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes'[39m[22m
+ @ ./webview/src/FieldTypes/dropdown.tsx 3:0-35 4:35-44
+ @ ./webview/src/NewConfig.tsx 4:0-54 19:324-337
+ @ ./webview/src/router.tsx 4:0-36 14:24-33
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/FieldTypes/checkbox.tsx[39m[22m [1m[32m1:0-86[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react/jsx-runtime' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes'[39m[22m
+ @ ./webview/src/ConfigEditor/fields.tsx 3:0-55 109:16-29
+ @ ./webview/src/ConfigEditor/index.tsx 8:0-35 24:415-432
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/FieldTypes/config.tsx[39m[22m [1m[32m1:0-48[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react/jsx-runtime' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes'[39m[22m
+ @ ./webview/src/ConfigEditor/proxyFields.tsx 3:0-51 16:16-27
+ @ ./webview/src/ConfigEditor/fields.tsx 12:0-44 157:4-15
+ @ ./webview/src/ConfigEditor/index.tsx 8:0-35 24:415-432
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/FieldTypes/config.tsx[39m[22m [1m[32m2:0-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'common/fileSystemConfig' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes'[39m[22m
+ @ ./webview/src/ConfigEditor/proxyFields.tsx 3:0-51 16:16-27
+ @ ./webview/src/ConfigEditor/fields.tsx 12:0-44 157:4-15
+ @ ./webview/src/ConfigEditor/index.tsx 8:0-35 24:415-432
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/FieldTypes/dropdown.tsx[39m[22m [1m[32m1:0-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react/jsx-runtime' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes'[39m[22m
+ @ ./webview/src/NewConfig.tsx 4:0-54 19:324-337
+ @ ./webview/src/router.tsx 4:0-36 14:24-33
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/FieldTypes/dropdown.tsx[39m[22m [1m[32m2:0-31[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes'[39m[22m
+ @ ./webview/src/NewConfig.tsx 4:0-54 19:324-337
+ @ ./webview/src/router.tsx 4:0-36 14:24-33
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/FieldTypes/dropdownwithinput.tsx[39m[22m [1m[32m1:0-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react/jsx-runtime' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes'[39m[22m
+ @ ./webview/src/ConfigEditor/fields.tsx 5:0-73 54:16-38 61:16-38 77:16-38 84:16-38 91:16-38 103:16-38 127:16-38 136:16-38 145:16-38 151:16-38
+ @ ./webview/src/ConfigEditor/index.tsx 8:0-35 24:415-432
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/FieldTypes/dropdownwithinput.tsx[39m[22m [1m[32m2:0-31[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes'[39m[22m
+ @ ./webview/src/ConfigEditor/fields.tsx 5:0-73 54:16-38 61:16-38 77:16-38 84:16-38 91:16-38 103:16-38 127:16-38 136:16-38 145:16-38 151:16-38
+ @ ./webview/src/ConfigEditor/index.tsx 8:0-35 24:415-432
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/FieldTypes/group.tsx[39m[22m [1m[32m1:0-48[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react/jsx-runtime' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes'[39m[22m
+ @ ./webview/src/NewConfig.tsx 5:0-48 19:20-30 19:497-516
+ @ ./webview/src/router.tsx 4:0-36 14:24-33
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/FieldTypes/group.tsx[39m[22m [1m[32m2:0-31[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes'[39m[22m
+ @ ./webview/src/NewConfig.tsx 5:0-48 19:20-30 19:497-516
+ @ ./webview/src/router.tsx 4:0-36 14:24-33
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/FieldTypes/list.tsx[39m[22m [1m[32m1:0-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react/jsx-runtime' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes'[39m[22m
+ @ ./webview/src/ConfigEditor/fields.tsx 6:0-53 47:16-31
+ @ ./webview/src/ConfigEditor/index.tsx 8:0-35 24:415-432
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/FieldTypes/number.tsx[39m[22m [1m[32m1:0-48[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react/jsx-runtime' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes'[39m[22m
+ @ ./webview/src/ConfigEditor/fields.tsx 7:0-51 66:16-27
+ @ ./webview/src/ConfigEditor/index.tsx 8:0-35 24:415-432
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/FieldTypes/path.tsx[39m[22m [1m[32m1:0-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react/jsx-runtime' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes'[39m[22m
+ @ ./webview/src/ConfigEditor/fields.tsx 8:0-47 96:16-25
+ @ ./webview/src/ConfigEditor/index.tsx 8:0-35 24:415-432
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/FieldTypes/string.tsx[39m[22m [1m[32m1:0-48[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react/jsx-runtime' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes'[39m[22m
+ @ ./webview/src/NewConfig.tsx 6:0-50 19:153-164
+ @ ./webview/src/router.tsx 4:0-36 14:24-33
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/FieldTypes/umask.tsx[39m[22m [1m[32m1:0-86[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react/jsx-runtime' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes'[39m[22m
+ @ ./webview/src/ConfigEditor/fields.tsx 10:0-49 115:16-26
+ @ ./webview/src/ConfigEditor/index.tsx 8:0-35 24:415-432
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/NewConfig.tsx[39m[22m [1m[32m1:0-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react/jsx-runtime' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src'[39m[22m
+ @ ./webview/src/router.tsx 4:0-36 14:24-33
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/NewConfig.tsx[39m[22m [1m[32m2:0-82[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'common/fileSystemConfig' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src'[39m[22m
+ @ ./webview/src/router.tsx 4:0-36 14:24-33
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/NewConfig.tsx[39m[22m [1m[32m3:0-31[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src'[39m[22m
+ @ ./webview/src/router.tsx 4:0-36 14:24-33
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/Startscreen.tsx[39m[22m [1m[32m1:0-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react/jsx-runtime' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src'[39m[22m
+ @ ./webview/src/router.tsx 6:0-40 17:24-35
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/Startscreen.tsx[39m[22m [1m[32m2:0-94[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'common/fileSystemConfig' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src'[39m[22m
+ @ ./webview/src/router.tsx 6:0-40 17:24-35
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/Startscreen.tsx[39m[22m [1m[32m3:0-31[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src'[39m[22m
+ @ ./webview/src/router.tsx 6:0-40 17:24-35
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1m./webview/src/index.tsx[39m[22m [1m[32m1:0-48[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react/jsx-runtime' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./webview/src/index.tsx[39m[22m [1m[32m2:0-38[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react-dom' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./webview/src/router.tsx[39m[22m [1m[32m1:0-48[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react/jsx-runtime' in 'D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src'[39m[22m
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigLocator.tsx[39m[22m
+[1m./webview/src/ConfigLocator.tsx[39m[22m [1m[32m1:55-80[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigLocator.tsx(1,56)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./webview/src/router.tsx 3:0-44 12:24-37
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\NewConfig.tsx[39m[22m
+[1m./webview/src/NewConfig.tsx[39m[22m [1m[32m1:72-97[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\NewConfig.tsx(1,73)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./webview/src/router.tsx 4:0-36 14:24-33
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx[39m[22m
+[1m./webview/src/Startscreen.tsx[39m[22m [1m[32m1:102-127[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\Startscreen.tsx(1,103)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./webview/src/router.tsx 6:0-40 17:24-35
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\index.tsx[39m[22m
+[1m./webview/src/index.tsx[39m[22m [1m[32m8:9-15[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\index.tsx(8,10)
+      TS2339: Property 'render' does not exist on type 'typeof import("D:\\Users\\root\\VSCode Projects\\Node.js\\TypeScript\\vscode-sshfs\\node_modules\\.pnpm\\@types+react-dom@19.2.3_@types+react@19.2.14\\node_modules\\@types\\react-dom\\index")'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\redux.ts[39m[22m
+[1m./webview/src/redux.ts[39m[22m [1m[32m26:15-20[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\redux.ts(26,16)
+      TS2345: Argument of type 'Store<{ data: IState; view: IState; }, IActionReceivedConfigs | Action, unknown>' is not assignable to parameter of type 'Store<any, UnknownAction, unknown>'.
+  Type 'IActionReceivedConfigs | Action' is not assignable to type 'UnknownAction'.
+    Type 'IActionReceivedConfigs' is not assignable to type 'UnknownAction'.
+      Index signature for type 'string' is missing in type 'IActionReceivedConfigs'.[39m[22m
+ @ ./webview/src/index.tsx 5:0-32 8:40-45
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\redux.ts[39m[22m
+[1m./webview/src/redux.ts[39m[22m [1m[32m27:15-20[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\redux.ts(27,16)
+      TS2345: Argument of type 'Store<{ data: IState; view: IState; }, IActionReceivedConfigs | Action, unknown>' is not assignable to parameter of type 'Store<any, UnknownAction, unknown>'.
+  Type 'IActionReceivedConfigs | Action' is not assignable to type 'UnknownAction'.
+    Type 'IActionReceivedConfigs' is not assignable to type 'UnknownAction'.
+      Index signature for type 'string' is missing in type 'IActionReceivedConfigs'.[39m[22m
+ @ ./webview/src/index.tsx 5:0-32 8:40-45
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\vscode.ts[39m[22m
+[1m./webview/src/vscode.ts[39m[22m [1m[32m2:54-79[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\vscode.ts(2,55)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./webview/src/index.tsx 7:0-31 9:0-15
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\vscode.ts[39m[22m
+[1m./webview/src/vscode.ts[39m[22m [1m[32m3:93-117[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\vscode.ts(3,94)
+      TS2307: Cannot find module 'common/webviewMessages' or its corresponding type declarations.[39m[22m
+ @ ./webview/src/index.tsx 7:0-31 9:0-15
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\configGroupField.tsx[39m[22m
+[1m./webview/src/ConfigEditor/configGroupField.tsx[39m[22m [1m[32m1:26-51[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\configGroupField.tsx(1,27)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./webview/src/ConfigEditor/fields.tsx 11:0-50 34:16-32
+ @ ./webview/src/ConfigEditor/index.tsx 8:0-35 24:415-432
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx[39m[22m
+[1m./webview/src/ConfigEditor/fields.tsx[39m[22m [1m[32m1:52-77[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\fields.tsx(1,53)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./webview/src/ConfigEditor/index.tsx 8:0-35 24:415-432
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx[39m[22m
+[1m./webview/src/ConfigEditor/index.tsx[39m[22m [1m[32m1:55-80[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\index.tsx(1,56)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\proxyFields.tsx[39m[22m
+[1m./webview/src/ConfigEditor/proxyFields.tsx[39m[22m [1m[32m1:38-63[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\proxyFields.tsx(1,39)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./webview/src/ConfigEditor/fields.tsx 12:0-44 157:4-15
+ @ ./webview/src/ConfigEditor/index.tsx 8:0-35 24:415-432
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\proxyFields.tsx[39m[22m
+[1m./webview/src/ConfigEditor/proxyFields.tsx[39m[22m [1m[32m66:132-140[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigEditor\proxyFields.tsx(66,133)
+      TS2322: Type '(newValue?: ProxyType) => void' is not assignable to type '(newValue?: string | ProxyType.hop) => void'.
+  Types of parameters 'newValue' and 'newValue' are incompatible.
+    Type 'string | ProxyType.hop' is not assignable to type 'ProxyType'.
+      Type 'string' is not assignable to type 'ProxyType'.[39m[22m
+ @ ./webview/src/ConfigEditor/fields.tsx 12:0-44 157:4-15
+ @ ./webview/src/ConfigEditor/index.tsx 8:0-35 24:415-432
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigList\index.tsx[39m[22m
+[1m./webview/src/ConfigList/index.tsx[39m[22m [1m[32m1:38-63[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\ConfigList\index.tsx(1,39)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./webview/src/ConfigLocator.tsx 4:0-38 12:126-136
+ @ ./webview/src/router.tsx 3:0-44 12:24-37
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\config.tsx[39m[22m
+[1m./webview/src/FieldTypes/config.tsx[39m[22m [1m[32m1:55-80[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\FieldTypes\config.tsx(1,56)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./webview/src/ConfigEditor/proxyFields.tsx 3:0-51 16:16-27
+ @ ./webview/src/ConfigEditor/fields.tsx 12:0-44 157:4-15
+ @ ./webview/src/ConfigEditor/index.tsx 8:0-35 24:415-432
+ @ ./webview/src/router.tsx 2:0-42 10:24-36
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\data\actions.ts[39m[22m
+[1m./webview/src/data/actions.ts[39m[22m [1m[32m1:54-79[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\data\actions.ts(1,55)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./webview/src/Startscreen.tsx 5:0-46 36:17-29
+ @ ./webview/src/router.tsx 6:0-40 17:24-35
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\data\state.ts[39m[22m
+[1m./webview/src/data/state.ts[39m[22m [1m[32m1:54-79[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\data\state.ts(1,55)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./webview/src/data/index.ts 4:0-24 4:0-24
+ @ ./webview/src/redux.ts 3:0-31 7:10-22 11:10-28 15:0-14
+ @ ./webview/src/index.tsx 5:0-32 8:40-45
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\actions.ts[39m[22m
+[1m./webview/src/view/actions.ts[39m[22m [1m[32m1:54-79[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\actions.ts(1,55)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./webview/src/NewConfig.tsx 8:0-107 27:27-42 28:33-53 29:30-46 33:21-37
+ @ ./webview/src/router.tsx 4:0-36 14:24-33
+ @ ./webview/src/index.tsx 6:0-30 8:104-110
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts[39m[22m
+[1m./webview/src/view/index.ts[39m[22m [1m[32m15:30-53[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\index.ts(15,31)
+      TS2345: Argument of type 'IActionOpenNewConfig' is not assignable to parameter of type 'UnknownAction'.
+  Index signature for type 'string' is missing in type 'IActionOpenNewConfig'.[39m[22m
+ @ ./webview/src/redux.ts 4:0-31 8:10-22 12:10-28 16:0-14
+ @ ./webview/src/index.tsx 5:0-32 8:40-45
+
+[1m[31mERROR[39m[22m in [1mD:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\state.ts[39m[22m
+[1m./webview/src/view/state.ts[39m[22m [1m[32m1:54-79[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in D:\Users\root\VSCode Projects\Node.js\TypeScript\vscode-sshfs\webview\src\view\state.ts(1,55)
+      TS2307: Cannot find module 'common/fileSystemConfig' or its corresponding type declarations.[39m[22m
+ @ ./webview/src/view/index.ts 4:0-24 4:0-24
+ @ ./webview/src/redux.ts 4:0-31 8:10-22 12:10-28 16:0-14
+ @ ./webview/src/index.tsx 5:0-32 8:40-45
+
+[1m[33m58 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.[39m[22m
+
+webpack 5.106.1 compiled with [1m[31m58 errors[39m[22m in 10925 ms
  ELIFECYCLE  Command failed with exit code 1.
