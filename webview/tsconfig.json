@@ -5,7 +5,7 @@
         "noImplicitAny": false,
         "module": "es6",
         "target": "es6",
-        "jsx": "react",
+        "jsx": "react-jsx",
         "moduleResolution": "node",
         "baseUrl": ".", 
         "paths": {
